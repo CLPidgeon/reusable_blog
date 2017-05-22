@@ -8,9 +8,9 @@ with open(os.path.join(os.path.dirname(__file__), 'README.rst'))as readme:
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-	name='reusable-app-blog',
+	name='reusable_app_blog',
 	version='1.0.0',
-	packages=['reusable-blog'],
+	packages=['reusable_blog'],
 	include_package_data=True,
 	license='BSD License',
 	description='A simple Django app to create blogs',
